@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Akatsuki | Free Fire Headshot Center</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: sans-serif;
+    }
+
+    body {
+      background: url('background.jpg') no-repeat center center/cover;
+      color: white;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 20px;
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    header h1 {
+      color: orange;
+      font-weight: bold;
+    }
+
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: white;
+    }
+
+    .search-box {
+      display: flex;
+    }
+
+    .search-box input {
+      padding: 5px;
+      border: none;
+      border-radius: 3px 0 0 3px;
+    }
+
+    .search-box button {
+      background-color: orange;
+      color: white;
+      border: none;
+      padding: 6px 10px;
+      border-radius: 0 3px 3px 0;
+      cursor: pointer;
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 40px 20px;
+      flex-wrap: wrap;
+    }
+
+    .content {
+      max-width: 600px;
+    }
+
+    .content h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+
+    .content p {
+      margin-bottom: 20px;
+    }
+
+    .content .join-btn {
+      background-color: orange;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .login-box {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 20px;
+      border-radius: 10px;
+      width: 100%;
+      max-width: 350px;
+    }
+
+    .login-box h3 {
+      margin-bottom: 15px;
+    }
+
+    .login-box input {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 5px;
+    }
+
+    .login-box button {
+      width: 100%;
+      padding: 10px;
+      background-color: orange;
+      color: white;
+      border: none;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+
+    .login-box p {
+      margin-top: 10px;
+      font-size: 14px;
+    }
+
+    .login-box a {
+      color: #00f;
+    }
+
+    /* 🔻 Mobile Responsive Design */
+    @media (max-width: 768px) {
+      header, nav {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .container {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .content h2 {
+        font-size: 24px;
+        text-align: center;
+      }
+
+      .login-box {
+        margin-top: 30px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>AKATSUKI</h1>
+    <nav>
+      <a href="#">One Tap</a>
+      <a href="#">Body Shot</a>
+      <a href="#">Freestyle</a>
+      <a href="#">Jata Shot</a>
+      <a href="#">Tournament</a>
+    </nav>
+    <div class="search-box">
+      <input type="text" placeholder="Search...">
+      <button>Search</button>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="content">
+      <h2>Free Fire Headshot Training Center</h2>
+      <p>আমাদের ট্রেনিং সেন্টার থেকে একদিন ট্রেনিং করে White 444 Raistar-এর মতো প্লেয়ারকে কে হারাতে পারবেন।</p>
+      <button class="join-btn">Join Us</button>
+    </div>
+
+    <div class="login-box">
+      <h3>Login Here</h3>
+      <input type="email" placeholder="Enter Email Here">
+      <input type="password" placeholder="Enter Password Here">
+      <button>Login</button>
+      <p>Don't have an account? <a href="#">Sign up</a> here</p>
+    </div>
+  </div>
+
